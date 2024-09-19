@@ -1,0 +1,74 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #8b9dac;
+    position: relative;
+}
+
+
+
+.bg-me {
+    width: 100%;
+    height: 100vh;
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 19px;
+    /* padding: 0; */
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.boxes {
+    width: 60%;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 9px 25px -9px rgba(190, 190, 190, 0.79);
+}
+
+.boxes-left {
+   padding: 0;
+   margin: 0;
+}
+
+.boxes-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxes-right {
+  padding: 60px 25px 40px;
+  margin: 0;
+}
+
+.boxes-right h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.boxes-right .sign {
+    margin-top: 30px;
+}
+
+.button-gift{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.button-gift img {
+    width: 50px;
+    height: 50px;
+}
